@@ -1,0 +1,40 @@
+/* Navbar Styles */
+.navbar-custom {
+    background-color: white !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Navigation Links */
+  .nav-link-custom {
+    color: black !important;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    position: relative; /* Ensures smooth transformation */
+  }
+  
+  /* Hover Effect: Increase font size & change color to Parrot Green */
+  .nav-link-custom:hover,
+  .nav-link-custom:focus {
+    color: #3CB371 !important; /* Parrot Green */
+    font-size: 1.2rem !important;
+  }
+  
+  /* Dropdown Customization */
+  #explore-dropdown {
+    font-size: 1.1rem;
+  }
+  
+  /* Social Media Icons (Right Aligned) */
+  .icon-link {
+    color: black;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .icon-link:hover {
+    color: #3CB371;
+    transform: scale(1.2);
+  }
+  

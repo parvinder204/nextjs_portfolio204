@@ -1,0 +1,200 @@
+/* About Page Container */
+.main-container {
+  padding: 60px 30px;
+  background-color: #000000; /* Light background */
+}
+
+/* Blog Page Container */
+  .blog-container {
+    border-radius: 8px;
+    background: #fff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Page Heading */
+  .blog-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+  
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+    /* Blog Card */
+    .blog-card {
+        background: #000000;
+        color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 20px;
+        text-align: left;
+      }
+  
+      /* Blog Image */
+  .blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+/* Blog Title */
+.blog-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+ /* Blog Description */
+ .blog-description {
+    font-size: 1rem;
+    color: #cacaca;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+ /* Read More Button */
+ .read-more-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #28a745;
+    transition: color 0.3s ease;
+  }
+  
+  .read-more-btn:hover {
+    color: #1e7e34;
+    text-decoration: underline;
+  }
+  
+  /* Blog Details Page */
+.blog-details-container {
+  padding: 4rem 2rem;
+  background: #fff;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.blog-details-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem; /* Add spacing between image and text */
+  flex-wrap: wrap; /* Allow wrapping for mobile view */
+}
+
+.blog-details-image-container {
+  flex: 1;
+  max-width: 45%; /* Control the image size */
+}
+
+.blog-details-image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover; /* Maintain image aspect ratio */
+}
+
+.blog-details-text-container {
+  flex: 2;
+  max-width: 50%; /* Control the text size */
+}
+
+.blog-details-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.blog-details-content {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: justify; /* Make text more readable */
+}
+
+.blog-details-description-container{
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+
+.back-btn {
+  background: #00cc66;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #00994d;
+}
+
+/* Mobile and Tablet Styles */
+@media (max-width: 991px) {
+  .blog-details-content-container {
+    flex-direction: column; /* Stack the content vertically */
+    text-align: center; /* Center align text */
+  }
+
+  .blog-details-image-container {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .blog-details-text-container {
+    max-width: 100%;
+  }
+
+  .blog-details-title {
+    font-size: 2rem; /* Adjust title size for small screens */
+  }
+
+  .blog-details-content {
+    font-size: 1rem; /* Adjust content size */
+  }
+
+  .back-btn {
+    width: 100%; /* Make button full width on small screens */
+  }
+}
+
+/* Blog Grid Layout (Optional for blog grid listing) */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive Grid */
+  gap: 20px;
+  justify-content: center;
+  /* align-items: start; */
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+  
+  
+  
+  
+  
+  
+  
